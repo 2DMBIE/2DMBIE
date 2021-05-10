@@ -7,7 +7,6 @@ func _ready():
 
 func _on_Timer_timeout():
 	var rand_amt = (randf())
-	print(rand_amt)
 	if rand_amt < 0.1:
 		self.energy = 0
 	else:

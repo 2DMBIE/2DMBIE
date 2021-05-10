@@ -22,9 +22,10 @@ func _on_WaveTimer_timeout(): #stats voor de enemies
 		Global.CurrentWaveEnemies = 0
 		Global.MaxWaveEnemies += 4
 		Global.Currentwave += 1
-		Global.maxHealth *= 1.05
-		Global.EnemyDamage *= 1.05
+		Global.maxHealth *= 1.25
+		Global.EnemyDamage *= 1.25
 		Global.Speed += 4
+		print(Global.maxHealth)
 #		print("next wave")
 #		print("new enemies")
 #		print(Global.MaxWaveEnemies)
